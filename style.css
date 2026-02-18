@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  z-index: 1000;
+}
+
+header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* SECTION */
+.section {
+  padding: 100px 60px;
+  margin-top: 60px;
+}
+
+.modal {
+  background: white;
+  border-radius: 15px;
+  margin: 40px auto;
+  width: 80%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+.about-container {
+  display: flex;
+  gap: 30px;
+}
+
+.about-container img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+/* EDUCATION */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #c47a1c;
+  display: block;
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+/* Timeline */
+.education-timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.education-timeline::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #c47a1c;
+}
+
+.edu-item {
+  display: flex;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.edu-dot {
+  width: 18px;
+  height: 18px;
+  background: #c47a1c;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 5px;
+}
+
+.edu-content {
+  margin-left: 40px;
+}
+
+.edu-date {
+  color: #c47a1c;
+  font-weight: bold;
+}
+
+.edu-content h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.edu-content p {
+  color: #555;
+}
+
+/* ICONS */
+.icons {
+  display: flex;
+  gap: 40px;
+  font-size: 40px;
+}
+
+.icons div {
+  text-align: center;
+}
+.center-title {
+  text-align: center;
+}
+
+/* PROJECT */
+.project-card img {
+  width: 50%;
+  border-radius: 7px;
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #111;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  
+}
+
